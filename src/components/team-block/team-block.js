@@ -1,6 +1,5 @@
 import React from "react"
 
-import "./team-block.sass"
 import TeamList from "./team-list/team-list"
 
 const TeamBlock = () => {

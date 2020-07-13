@@ -1,7 +1,6 @@
 import React from "react"
 
-import "./services-block.sass"
-import Services from "./services/services";
+import Services from "./services/services"
 
 const ServicesBlock = () => {
     return (
