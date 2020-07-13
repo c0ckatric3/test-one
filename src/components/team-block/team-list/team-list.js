@@ -1,10 +1,10 @@
 import React from "react"
 
 import "./team-list.sass"
-import fb from "../../../img/Fb.svg"
-import li from "../../../img/LinkedIn.svg"
-import tw from "../../../img/Twitter .svg"
-import em from "../../../img/Mail.svg"
+import { ReactComponent as Fb } from "../../../img/Fb.svg"
+import { ReactComponent as In } from "../../../img/LinkedIn.svg"
+import { ReactComponent as Tw } from "../../../img/Twitter .svg"
+import { ReactComponent as Em } from "../../../img/Mail.svg"
 
 import one from "../../../img/face1.jpg"
 import two from "../../../img/face2.jpg"
@@ -25,10 +25,10 @@ const TeamList = () => {
                     tincidunt ut laoreet dolore magna.
                 </span>
                 <div className="social">
-                    <img src={ fb } alt="facebook" />
-                    <img src={ tw } alt="twitter" />
-                    <img src={ li } alt="linkedin" />
-                    <img src={ em } alt="email" />
+                    <Fb className="facebook" />
+                    <Tw className="twitter" />
+                    <In className="linkedin" />
+                    <Em className="email" />
                 </div>
             </div>
 
@@ -41,9 +41,9 @@ const TeamList = () => {
                     Excepteur sint occaecat non diam proident.
                 </span>
                 <div className="social">
-                    <img src={ tw } alt="twitter" />
-                    <img src={ li } alt="linkedin" />
-                    <img src={ em } alt="email" />
+                    <Tw className="twitter" />
+                    <In className="linkedin" />
+                    <Em className="email" />
                 </div>
             </div>
 
@@ -56,10 +56,10 @@ const TeamList = () => {
                     qui ratione voluptatem nesciunt.
                 </span>
                 <div className="social">
-                    <img src={ fb } alt="facebook" />
-                    <img src={ tw } alt="twitter" />
-                    <img src={ li } alt="linkedin" />
-                    <img src={ em } alt="email" />
+                    <Fb className="facebook" />
+                    <Tw className="twitter" />
+                    <In className="linkedin" />
+                    <Em className="email" />
                 </div>
             </div>
 
@@ -72,9 +72,9 @@ const TeamList = () => {
                     laudantium, totam rem aperiam.
                 </span>
                 <div className="social">
-                    <img src={ fb } alt="facebook" />
-                    <img src={ tw } alt="twitter" />
-                    <img src={ em } alt="email" />
+                    <Fb className="facebook" />
+                    <Tw className="twitter" />
+                    <Em className="email" />
                 </div>
             </div>
         </div>
