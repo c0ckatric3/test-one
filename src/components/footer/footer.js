@@ -4,13 +4,6 @@ import "./footer.sass"
 
 
 const Footer = () => {
-    CSS.registerProperty({
-        name: '--color',
-        syntax: '<color>',
-        inherits: false,
-        initialValue: '#344B8E'
-    })
-
     return (
         <div className="footer blue-dark">
             <nav>
