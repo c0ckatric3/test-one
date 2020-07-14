@@ -7,6 +7,8 @@ import TeamBlock from "../team-block/team-block"
 import SkillsBlock from "../skills-block/skills-block"
 import PortfolioBlock from "../portfolio-block/portfolio-block"
 import AboutBlock from "../about-block/about-block"
+import GetBlock from "../get-block/get-block"
+import Footer from "../footer/footer"
 
 
 const App = () => {
@@ -18,6 +20,8 @@ const App = () => {
             <SkillsBlock />
             <PortfolioBlock />
             <AboutBlock />
+            <GetBlock />
+            <Footer />
         </>
     )
 }
