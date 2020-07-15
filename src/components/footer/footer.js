@@ -6,9 +6,9 @@ import "./footer.sass"
 const Footer = () => {
     return (
         <div className="footer blue-dark">
-            <nav>
+            <nav className="social-footer">
                 <a href="#" className="facebook">Facebook</a>
-                <a href="#" className="active twitter">Twitter</a>
+                <a href="#" className="twitter">Twitter</a>
                 <a href="#" className="google">Google+</a>
                 <a href="#"className="linkedin">LinkedIn</a>
                 <a href="#"className="behance">Behance</a>
