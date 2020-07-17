@@ -7,7 +7,7 @@ const AboutBlock = () => {
         <div className="block pink">
             <span className="title">WHAT POEPLE SAY ABOUT US</span>
             <hr />
-            <span className="info">Our clients love us! </span>
+            <span className="info">Our clients love us!</span>
             <Reviews />
         </div>
     )
