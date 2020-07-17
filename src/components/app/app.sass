@@ -227,12 +227,14 @@
             padding-bottom: 20px
 
         .header
+            flex-wrap: wrap
+            justify-content: center
             .logo
                 img
-                    width: 60%
+                    width: 70%
             nav
                 a
-                    padding: 3px 8px
+                    padding: 3px 5px
                     font-size: 13px
                     &:hover
                         padding: 3px 8px
@@ -314,13 +316,16 @@
                 margin: 0
                 width: 50%
                 .block-1
+                    img
+                        width: 30%
+                        height: 55%
                     .review
-                        font-size: 14px
+                        font-size: 60%
                 .block-2
                     .name
-                        font-size: 16px
+                        font-size: 65%
                     .type
-                        font-size: 14px
+                        font-size: 55%
 
         .form
             button
@@ -330,5 +335,11 @@
                 &:hover
                     font-size: 14px
 
-
-//@media (max-width: 500px)
+    #root
+        .footer
+            padding: 0 10px
+            .social-footer
+                flex-wrap: wrap
+                justify-content: center
+                a
+                    width: 25%
