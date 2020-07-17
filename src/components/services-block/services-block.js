@@ -9,7 +9,7 @@ const ServicesBlock = () => {
             <hr />
             <span className="info">
                 We are working with both individuals and businesses from all over the globe
-                to create awesome websites and applications. 
+                to create awesome websites and applications.
             </span>
             <Services />
         </div>
